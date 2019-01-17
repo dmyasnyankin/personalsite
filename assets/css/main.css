@@ -2319,6 +2319,11 @@
 				.box.features .features-row:last-child section {
 					padding-bottom: 0;
 				}
+		.box .personal-pic{
+			border-radius: 100%;
+			display: block;
+			width: 100%;
+		}
 
 		.box.special {
 			text-align: center;
