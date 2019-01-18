@@ -2355,15 +2355,19 @@ input, select, textarea {
 /* Feature Icons */
 
 	ul.feature-icons {
+		display: flex;
+		justify-content: center;
 		list-style: none;
 		padding-left: 0;
+		font-size: 85px;
+		margin: auto;
 	}
 
 		ul.feature-icons li {
 			text-decoration: none;
 			display: inline-block;
-			margin: 0 0 1.6875em 0;
-			padding: 0.35em 0 0 3.5em;
+			margin: 0 5em 1.6875em 5em;
+			padding: 3.5em 5em 0 5em;
 			position: relative;
 			vertical-align: top;
 			width: 48%;
